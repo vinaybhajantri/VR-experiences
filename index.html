@@ -1,0 +1,27 @@
+<html>
+    <head>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.5.0/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+        <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+        
+</head>
+    </head>    
+    <body>
+        <a-scene>
+
+            <a-text value="Hello, I'm building a 
+                leviating VR experience.
+                [WIP-stay tuned]" color="#BBB"
+                position="-2 3 -5"
+            ></a-text>
+
+            <a-box 
+            rotation="0 30 15"></a-box>
+            <a-sky color="#ECECEC"></a-sky>
+            <a-light
+            type="point" position="0 5 0" penumbra="0.5" color="#2222" groundcolor="#2222"></a-light>
+        </a-scene>
+
+        <script src="index.js"></script>
+    </body>
+</html>
